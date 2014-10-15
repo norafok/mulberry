@@ -1,0 +1,219 @@
+		html,body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+	 	 }
+		#page {
+			margin: 0 auto;
+			width: 80%;
+			height: 100%;
+			/*border: 1px solid black;*/
+		}
+		#header {
+			position: relative;
+			width: 100%;
+			height: 210px;
+			background-image: url('bgheader.png');
+		}
+		#logo {
+			left: 10px;
+			top: 10px;
+		  	width: 182px;
+		  	height: 112px;
+			position: absolute;
+			background-image: url('smlogo.png');
+		}
+		#bird {
+			left: 400px;
+			top: 10px;
+		  	width: 64px;
+		  	height: 56px;
+			position: absolute;
+			background-image: url('smbird.png');
+		}
+		#main {
+			position: relative;
+			top: -6px;
+			width: 100%;
+			height: 550px;
+			background: linear-gradient(#314b2b ,#63845b 8%);			
+		}
+		#sidebar {
+			margin-left: 30px;
+			margin-top: 25px;
+			float: left;
+			width: 25%;
+			height: 430px;
+		}
+		#subtitle {
+			padding: 20px 0 0px 40px;
+			font-size: 20pt;
+			font-family: nyala;
+			color: #ffffff;
+		}
+		#subtitle span {
+			position: relative;
+			top: -15px;
+		}
+		.submenu {
+			text-decoration: none;
+			font-size: 18pt;
+			font-family: nyala;
+			color: #ffffff;
+		}
+		div#menu {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			width: 14em; 
+		}
+		div#menu ul li a {
+			background-color: #234919;
+			padding: 8px 25px;		
+			color: #ffffff;
+			display: block;
+			box-shadow: -2px 3px 3px black;
+			border-radius: .2em;
+		}
+		div#menu ul li a.onactive, div#menu ul li a:hover {
+			background-color: #ffffff;
+			font-weight: bold;
+		 	color: #63845b;		
+		}	
+		div#menu ul li {
+			margin: 10px 0;
+			text-decoration: none;
+			font-size: 18pt;
+			font-family: nyala;
+			color: #63845b;
+		}	
+		#subtitleicon{
+			width: 59px;
+			height: 51px;
+			background-image: url('iconproduct.png');
+			display: inline-block;
+		}
+		#content {
+			border: 15px solid white;
+			margin-left: -50px;
+			width: 68%;
+			height: 350px;	
+			border-top-right-radius: 1.5em;
+			border-top-left-radius: 1.5em;	
+			border-bottom-right-radius: 1.5em;	
+			border-bottom-left-radius: 1.5em;	
+			display: block;	
+			background-color: #cbeecf;	
+			float: left;
+			box-shadow: 2px 5px 3px black;
+		}
+		#map {
+			border: 2px solid white;
+			margin-top: 30px;
+			margin-left: 120px;
+			width: 475px;
+			height: 259px;
+			background-image: url('map.png');
+		}
+		/*table {
+			width: 500px;
+			height: 250px;
+			border-collapse: collapse;
+		}
+		table, td, th {
+    		border: 1px solid black;
+		}*/
+		#phoneicon {
+			float: left;
+			margin-left: 10px;
+			width: 24px;
+			height: 30px;
+			background-image: url('phone.png');
+			display: inline-block;			
+		}
+		#topmenugroup {
+			width: 100%;
+			height: 35px;
+			background: linear-gradient(#63845b 8%, #314b2b);
+		}
+		#topmenuitem {
+			display: inline-block;
+			margin-left: 200px;
+		}
+		.topmenu {
+			padding: 0 15px;
+			float: left;
+			font-weight: bold;
+			font-size: 17px ;
+			font-family: shruti;
+			color: white;
+		}
+		#productsearch {
+			float: right;
+		}
+		.searchBox {
+		 	background-image: url('search.png');
+  			background-repeat: no-repeat;
+  			padding-left: 30px;
+  		}
+  		#leftpicture {
+  			margin-top: 15px;
+  			float: left;
+  		}
+  		#rightpicture {
+   			margin-top: 15px;
+  		  	float: right;
+  		}
+  		#firstleft img {
+  			width: 100px;
+			height: 75px;  	
+			margin: 20px 0 0 30px;					
+			box-shadow: 6px 6px 1px #6f7a6c;
+  		}
+  		#secondleft img {
+  			width: 100px;
+			height: 75px;  	
+			margin: 20px 20px 0 30px;							
+			box-shadow: 6px 6px 2px #6f7a6c;
+  		}
+  		#thirdleft img {
+  			width: 100px;
+			height: 75px;  	
+			margin: 20px 20px 0 30px;					
+			box-shadow: 6px 6px 2px #6f7a6c;
+  		}
+  		#firstright img {
+  			width: 100px;
+			height: 75px;  		
+			margin: 20px 30px 0 0;						
+			box-shadow: 6px 6px 1px #6f7a6c;
+  		}
+  		#secondright img {
+  			width: 100px;
+			height: 75px;  	
+			margin: 20px 30px 0 0;							
+			box-shadow: 6px 6px 2px #6f7a6c;
+  		}
+  		#thirdright img {
+  			width: 100px;
+			height: 75px;  	
+			margin: 20px 30px 0 0;					
+			box-shadow: 6px 6px 2px #6f7a6c;
+  		}
+  		#middlepicture {
+  			float: left;
+   			width: 312px;
+			height: 300px;
+			margin: 23px 0 0 60px;
+			background-repeat: no-repeat;
+  			background-image: url('middlepicturebg.png');
+  		}
+  		#middlepicture img {
+  			border-radius: 10px;
+  			border: 5px solid white;
+  			overflow: hidden;
+  			margin-top: 20px;
+  			margin-left: -23px;
+  			width: 350px;
+  			height: 250px;
+  		}

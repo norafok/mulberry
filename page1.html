@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+	<style type="text/css">
+		html,body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+	 	 }
+		#page {
+			margin: 0 auto;
+			width: 80%;
+			height: 100%;
+			/*border: 1px solid black;*/
+		}
+		#header {
+			position: relative;
+			width: 100%;
+			height: 210px;
+			background-image: url('bgheader.png');
+		}
+		#logo {
+			left: 10px;
+			top: 10px;
+		  	width: 182px;
+		  	height: 112px;
+			position: absolute;
+			background-image: url('smlogo.png');
+		}
+		#bird {
+			left: 400px;
+			top: 10px;
+		  	width: 64px;
+		  	height: 56px;
+			position: absolute;
+			background-image: url('smbird.png');
+		}
+		#main {
+			width: 100%;
+			height: 450px;
+			background-color: #63845b;			
+		}
+		#sidebar {
+			margin-left: 30px;
+			margin-top: 25px;
+			float: left;
+			width: 25%;
+			height: 430px;
+		}
+		#subtitle {
+			padding: 20px 0 0px 40px;
+			font-weight: bold;
+			font-size: 22pt;
+			font-family: nyala;
+			color: #ffffff;
+		}
+		#subtitle span {
+			position: relative;
+			top: -5px;
+		}
+		.submenu {
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18pt;
+			font-family: nyala;
+			color: #ffffff;
+		}
+		div#menu {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			width: 14em; 
+			border-radius: .3em;
+		}
+		div#menu ul {
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18pt;
+			font-family: nyala;
+			color: #63845b;
+			display: block;
+		}
+		div#menu ul li a:link {
+			margin: 0;
+			padding: .4em .9em .4em .9em;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18pt;
+			font-family: nyala;
+			background-color: #234919;
+			color: #ffffff;
+			display: block;
+			border-radius: .3em;
+		}
+		div#menu ul li a:active {
+			margin: 0;
+			padding: .4em .9em .4em .9em;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18pt;
+			font-family: nyala;
+			background-color: #ffffff;
+		 	color: #63845b;
+		 	display: block;	
+		 	border-radius: .3em;		
+		}
+		/*div#menu ul li a:visited {
+			margin: 0;
+			padding: .4em .9em .4em .9em;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18pt;
+			font-family: nyala;
+			background-color: #234919;
+		 	color: #63845b;
+		 	display: block;			
+		}*/
+		div#menu ul li a:hover {
+			margin: 0;
+			padding: .4em .9em .4em .9em;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18pt;
+			font-family: nyala;
+			background-color: #ffffff;
+		 	color: #63845b;
+		 	display: block;
+		 	border-radius: .3em;
+		} 	
+		div#menu ul li {
+			margin: 10px 0;
+			background: #63845b;
+			box-shadow: -2px 5px 3px black;
+			border-radius: .3em;
+		}	
+		#subtitleicon{
+			width: 36px;
+			height: 29px;
+			background-image: url('iconcamera.png');
+			display: inline-block;
+		}
+		#content {
+			border: 15px solid white;
+			margin-left: -50px;
+			width: 68%;
+			height: 320px;	
+			border-top-right-radius: 1.5em;
+			border-top-left-radius: 1.5em;	
+			border-bottom-right-radius: 1.5em;	
+			border-bottom-left-radius: 1.5em;	
+			display: block;	
+			background-color: #a3d39c;	
+			float: left;
+		}
+		#map {
+			margin-top: 30px;
+			margin-left: 120px;
+			width: 472px;
+			height: 257px;
+			background-image: url('map.png');
+		}
+		/*table {
+			width: 500px;
+			height: 250px;
+			border-collapse: collapse;
+		}
+		table, td, th {
+    		border: 1px solid black;
+		}*/
+	</style>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Mulberry Farm - Visit Farm</title>
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div id="logo"></div>
+			<div id="bird"></div>
+		</div>
+		<div id="main">
+			<div id="subtitle">
+				<div id="subtitleicon"></div>
+				<span>Visit Farm</span>
+			</div>
+			<div id="sidebar">
+				<div id="menu">
+					<ul>
+						<li><a href="" class="submenu">Information</a></li>
+						<li><a href="" class="submenu">Farm Pictures</a></li>
+						<li><a href="visit.html" class="submenu">Map</a></li>
+						<li><a href="" class="submenu">Transportation</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div id="map"></div>
+				<!--<table>
+					<thead>
+						<tr>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>									
+					</tbody>
+				</table>-->
+			</div>		
+		</div>
+	</div>
+</body>
+</html>
