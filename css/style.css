@@ -280,9 +280,10 @@
   			margin-top: 80px;
   		}
    		#vline {
-			margin-left: 20px;
+			margin: 0 auto;
+			height: 0px;
 			width: 1120px;
-			border: 1px solid;
+			border-top: 1px solid;
 			color: #c7c7c7;
   		}
  		.effmenu {
