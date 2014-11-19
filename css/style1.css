@@ -56,24 +56,6 @@
 			position: relative;
 			top: -20px;
 		}
-		#subvisiticon{
-			width: 71px;
-			height: 70px;
-			background-image: url('../image/icon_visit.png');
-			display: inline-block;
-		}
-		#subbranchicon{
-			width: 71px;
-			height: 70px;
-			background-image: url('../image/icon_branch.png');
-			display: inline-block;
-		}
-		#subeffecticon{
-			width: 71px;
-			height: 70px;
-			background-image: url('../image/icon_effective.png');
-			display: inline-block;
-		}
 		.submenu {
 			text-decoration: none;
 			font-size: 18pt;
@@ -84,7 +66,7 @@
 			margin: 0;
 			padding: 0;
 			border: 0;
-			width: 20em; 
+			width: 14em; 
 		}
 		div#menu ul li a {
 			background-color: #5a844d;
@@ -103,7 +85,25 @@
 			font-size: 18pt;
 			font-family: nyala;
 			color: white;
-		}			
+		}	
+		#subtitlevisiticon{
+			width: 71px;
+			height: 70px;
+			background-image: url('../image/icon_visit.png');
+			display: inline-block;
+		}
+		#subtitlebranchicon{
+			width: 71px;
+			height: 70px;
+			background-image: url('../image/icon_branch.png');
+			display: inline-block;
+		}
+		#subtitleeffectiveicon{
+			width: 71px;
+			height: 70px;
+			background-image: url('../image/icon_effective.png');
+			display: inline-block;
+		}		
 		#content {
 			border: 40px solid #a4c39e;
 			margin-left: -70px;
@@ -161,15 +161,15 @@
   			background-repeat: no-repeat;
   			padding-left: 30px;
   		}
-		#footermenu{
+  		#footermenu{
   			float: left;
 			margin-top: 12px;
 			margin-left: 40px;
   		}
   		.footer {
-  			font-size: 15px;
-  			font-family: Adobe Fan Heiti std;
-  			color: #787878;
+  			font-size: 17px;
+  			font-family: Arial;
+  			color: #303530;
   		}
   		#leftpicture {
   			margin-top: 16px;
@@ -242,12 +242,11 @@
   		}
   		#leftside{
   		  	margin-top: 16px;
-  			float: left;
-
+  			float: left;	
   		}
   		#rightside{
-  		  	margin-top: 65px;
-  			margin-left: 130px;		
+  		  	margin-top: 16px;
+  			float: left;		
   		}
   		#infoicon {
   			float: left;
@@ -257,88 +256,17 @@
 			height: 44px;
   			background-image: url('../image/infoicon.png');
   		}
-  		#transicon {
-  			float: left;
-  			margin-top: 30px;
-  			margin-left: 40px;
-  			width: 52px;
-			height: 44px;
-  			background-image: url('../image/transicon.png');
-  		}
   		.info {
   			font-family: Arial;
   			font-size: 12pt;
   			line-height: 2px;
   			color: #424741;
-  			line-height: 20px;
-  			display: block;
    		}
   		.welcome {
   			font-family: Arial;
   		  	color: #424741;
   			font-size: 12pt;
   			margin-top: 80px;
+  			margin-left: 105px;
   		}
-   		#vline {
-			margin-left: 20px;
-			width: 1120px;
-			border: 1px solid;
-			color: #c7c7c7;
-  		}
- 		.effmenu {
-  			font-family: Adobe Fan Heiti std;
-  			font-size: 16px;
-  			margin-left: 135px;
-  			line-height: 35px;
-  		}
-   		#topic {
-  			margin-top: 20px;
-  			margin-left: 115px;
-  			float: letf;
-  		}
- 		.efftopic {
-  			font-family: Adobe Fan Heiti std;
-  			color: #007e0c;
-  			font-size: 18px;
-  		}
-  		#effpage {
-   			font-family: Adobe Fan Heiti std;
-  			font-size: 16px;
-  			margin-left: 800px;
-  			float: right;
-  			display: inline-block;	
-  		}
-  		#leftcontent {
-  			float: left;
-  			width: 700px;
-  			display: inline-block;
-  		}
-  		#rightcontent {
-  			float: right;
-  			margin-right: -280px;
-  			display: inline-block;
-  		}
-  		#effcontent {
-  			float: left;
-  			margin-left: 110px; 
-  			margin-top: 30px;
-  			margin-right: 200px 
-  		} 
-  		.efftitle {
-  			font-family: Kozuka Gothic Pr6N;
-  			font-size: 16px;
-  			color: #394039;
-  			font-weight: bold;
-  		}	
-  		.econtent {
-  			font-family: Kozuka Gothic Pr6N;
-  			font-size: 15px;
-  			color: #394039;
-  		}
-  		#effimage {			
-  			width: 220px;
-			height: 280px;
-			border: 1px solid;
-			color: #787878;
-			background-image: url('../image/effective.png');
-  		}
+
